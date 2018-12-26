@@ -1,0 +1,25 @@
+uuid: ceca1732-2f5a-4028-b684-306c27856315
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_block_page_breadcrumb
+    - node.type.article
+_core:
+  default_config_hash: adH2JXbd0PCPbT96suuCsAqpu4Akd36VFgLHK0dYo0Y
+id: node.article.field_show_block_page_breadcrumb
+field_name: field_show_block_page_breadcrumb
+entity_type: node
+bundle: article
+label: 'Show Page Breadcrumbs'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

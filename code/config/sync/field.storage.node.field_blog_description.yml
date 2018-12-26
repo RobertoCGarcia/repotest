@@ -1,0 +1,21 @@
+uuid: d67fcba2-9f2b-417b-9621-2a7f0ae268c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: w7hjM3zN4OsxLL7wdBiOA5BwnSfxUUb7J87Dxmi1gfA
+id: node.field_blog_description
+field_name: field_blog_description
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

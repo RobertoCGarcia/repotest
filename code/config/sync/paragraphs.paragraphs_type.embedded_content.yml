@@ -1,0 +1,11 @@
+uuid: 4ac3583e-67a9-46fc-adb9-cfb6ea8d39cd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iFX-SrMDh21ItUcL2XTza2BeIIiQkPW-e7Hb4X1PPDk
+id: embedded_content
+label: 'Embedded content'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

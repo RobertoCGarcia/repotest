@@ -1,0 +1,27 @@
+uuid: 6188b2a2-de08-4d98-a98f-2ae1888dea50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_max_qty
+    - paragraphs.paragraphs_type.imgtxtbanner
+_core:
+  default_config_hash: a5d7cU7BPTHZYZx442stPe0Ae6IvLmR3q10Er6pjTvs
+id: paragraph.imgtxtbanner.field_par_max_qty
+field_name: field_par_max_qty
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Max Quantity'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 4
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

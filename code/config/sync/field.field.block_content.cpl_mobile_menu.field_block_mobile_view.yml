@@ -1,0 +1,40 @@
+uuid: 59388509-00c8-463a-ba80-e5b0c4fa385d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_mobile_menu
+    - field.storage.block_content.field_block_mobile_view
+  module:
+    - viewsreference
+_core:
+  default_config_hash: uZTfnFqJSinmafn9L56MmJ3IermUkSWh9Vt5hkKIbyE
+id: block_content.cpl_mobile_menu.field_block_mobile_view
+field_name: field_block_mobile_view
+entity_type: block_content
+bundle: cpl_mobile_menu
+label: 'Mobile Menu View'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    block: block
+    default: 0
+    embed: 0
+    page: 0
+    feed: 0
+  preselect_views: {  }
+  enabled_settings:
+    offset: 0
+    title: 0
+    argument: 0
+    limit: 0
+    pager: 0
+field_type: viewsreference

@@ -1,0 +1,16 @@
+uuid: 6f3f6d0d-740b-4679-b86c-ca9fb59449ae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qafoB7BJEOGOHc9yRKCxm-7yieWLzP_sbBY2rox7CTc
+name: megamenu_ad
+label: 'Megamenu Ad'
+effects:
+  0aca2e5b-8aa4-435c-84e8-88264a194c13:
+    uuid: 0aca2e5b-8aa4-435c-84e8-88264a194c13
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 850
+      height: 700

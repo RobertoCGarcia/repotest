@@ -1,0 +1,10 @@
+uuid: bc3edab6-60cb-4063-aa22-1af748b7ec8b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: emdRh663v8z_1W033AhJ2xlB-OR9Uos7WYkdwQqOYtE
+id: cpl_page_footer_bottom
+label: 'CPL Page Footer Bottom'
+revision: 0
+description: 'Footer bottom bar.'

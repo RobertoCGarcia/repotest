@@ -1,0 +1,25 @@
+uuid: 44f6ba2c-e815-4ff3-9e14-0864280e501e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_footer
+    - field.storage.block_content.field_block_display_title
+  module:
+    - options
+_core:
+  default_config_hash: 5_GF9JEg3sXqEtg3D_PjJHkwzG6EkKOGohVSoHj47LE
+id: block_content.cpl_page_footer.field_block_display_title
+field_name: field_block_display_title
+entity_type: block_content
+bundle: cpl_page_footer
+label: 'Display Title'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'OFF'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

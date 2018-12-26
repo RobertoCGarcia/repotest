@@ -1,0 +1,10 @@
+uuid: 7f7db0b1-2036-4cd2-be10-ffdabcadfc9b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _Jp53Fp-1UmhSzzq8eYkm756gAMnQ5RosxAVFXQwZzc
+id: cpl_page_footer
+label: 'CPL Page Footer'
+revision: 0
+description: 'Page footer block.'

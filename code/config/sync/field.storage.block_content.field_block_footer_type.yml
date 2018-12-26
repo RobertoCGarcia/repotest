@@ -1,0 +1,41 @@
+uuid: 82c28d74-dc92-4d90-9383-13d6eb58999f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: vRXa4jfAfIXQYDkm470fR0UBSeMSFMjnIj0G28clWCU
+id: block_content.field_block_footer_type
+field_name: field_block_footer_type
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: F1
+      label: 'Footer Type 1'
+    -
+      value: F2
+      label: 'Footer Type 2'
+    -
+      value: F3
+      label: 'Footer Type 3'
+    -
+      value: F4
+      label: 'Footer Type 4'
+    -
+      value: F5
+      label: 'Footer Type 5'
+    -
+      value: F6
+      label: 'Footer Type 6'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

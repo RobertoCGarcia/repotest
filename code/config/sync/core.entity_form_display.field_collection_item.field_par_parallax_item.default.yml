@@ -1,0 +1,62 @@
+uuid: e3e9da5b-5222-4d2e-8712-ef265e45a584
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_par_parallax_item.field_parc_body
+    - field.field.field_collection_item.field_par_parallax_item.field_parc_color
+    - field.field.field_collection_item.field_par_parallax_item.field_parc_header
+    - field.field.field_collection_item.field_par_parallax_item.field_parc_image
+    - field.field.field_collection_item.field_par_parallax_item.field_parc_number
+    - field_collection.field_collection.field_par_parallax_item
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: sp1r-uQw6_XOdinp9KWD6REFKs4IQGstIyjSAQyV6zM
+id: field_collection_item.field_par_parallax_item.default
+targetEntityType: field_collection_item
+bundle: field_par_parallax_item
+mode: default
+content:
+  field_parc_body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_parc_color:
+    weight: 2
+    settings:
+      size: 20
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_parc_header:
+    weight: 0
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_parc_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_parc_number:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden: {  }

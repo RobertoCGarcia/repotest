@@ -1,0 +1,11 @@
+uuid: f86df573-7014-4a90-8710-35e6af777e6a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6vhrXa891FPgezNFm_LQHWfkJVPgDui-h6kYXDRbcdo
+id: imgtxt
+label: 'Image Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

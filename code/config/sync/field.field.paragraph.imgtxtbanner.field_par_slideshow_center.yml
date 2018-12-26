@@ -1,0 +1,25 @@
+uuid: 6f6c4f65-f1f3-45d4-bcbf-89c62b37a419
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_center
+    - paragraphs.paragraphs_type.imgtxtbanner
+_core:
+  default_config_hash: phXVbfOcPQRk6J3djhkVoxDBZdx6MjsPq1emCBkCx5c
+id: paragraph.imgtxtbanner.field_par_slideshow_center
+field_name: field_par_slideshow_center
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Slideshow Center Mode '
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

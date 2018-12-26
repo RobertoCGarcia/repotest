@@ -1,0 +1,11 @@
+uuid: 8dc1eea4-0b4b-4ac2-bc0c-7b9f424f7a77
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CoHgzJGXNq50tpK9bpm2vyUml_wh7Cdsc_zj3UBVSv0
+id: node_type_paragraphs_page
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301

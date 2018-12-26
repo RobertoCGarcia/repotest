@@ -1,0 +1,27 @@
+uuid: 781e3868-87b1-4586-a3f4-f1a67528a8dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_video
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: lo_qWCNWWu4Sq-EHXithQG33NfK6oHk-bc5xZJ7WlGM
+id: paragraph.imgtxtbanner.field_par_video
+field_name: field_par_video
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'External Video'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube_playlist: '0'
+    youtube: '0'
+field_type: video_embed_field

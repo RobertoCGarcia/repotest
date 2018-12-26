@@ -1,0 +1,22 @@
+uuid: 9074a76e-2285-48c4-873a-4d6bdf991033
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - system
+_core:
+  default_config_hash: 95GjY2QvTSHIVJnW2kZQplvrnb6CkO7kjT-FNhxUY1A
+id: block_content.field_block_commerce_menu
+field_name: field_block_commerce_menu
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: menu
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

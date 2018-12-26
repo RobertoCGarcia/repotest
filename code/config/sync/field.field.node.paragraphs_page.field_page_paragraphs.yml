@@ -1,0 +1,68 @@
+uuid: 3fe29748-56d4-466c-a831-fd84916bcd65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_paragraphs
+    - node.type.paragraphs_page
+    - paragraphs.paragraphs_type.embedded_content
+    - paragraphs.paragraphs_type.html
+    - paragraphs.paragraphs_type.icntxt
+    - paragraphs.paragraphs_type.imgtxt
+    - paragraphs.paragraphs_type.imgtxtbanner
+    - paragraphs.paragraphs_type.parallax
+    - paragraphs.paragraphs_type.txt
+    - paragraphs.paragraphs_type.view
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: x9dBF2awOIjJRsL13Zi5Ix3ek2AoYohxRKr4iEFFuFU
+id: node.paragraphs_page.field_page_paragraphs
+field_name: field_page_paragraphs
+entity_type: node
+bundle: paragraphs_page
+label: 'Page Paragraphs'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      icntxt: icntxt
+      imgtxt: imgtxt
+      imgtxtbanner: imgtxtbanner
+      txt: txt
+      embedded_content: embedded_content
+      view: view
+      parallax: parallax
+      html: html
+    target_bundles_drag_drop:
+      icntxt:
+        enabled: true
+        weight: -25
+      imgtxt:
+        enabled: true
+        weight: -24
+      imgtxtbanner:
+        enabled: true
+        weight: -23
+      txt:
+        enabled: true
+        weight: -22
+      embedded_content:
+        enabled: true
+        weight: -20
+      view:
+        enabled: true
+        weight: -19
+      parallax:
+        enabled: true
+        weight: -18
+      html:
+        enabled: true
+        weight: -17
+field_type: entity_reference_revisions

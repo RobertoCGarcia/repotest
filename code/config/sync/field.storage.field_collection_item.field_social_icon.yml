@@ -1,0 +1,38 @@
+uuid: 9f503f03-caeb-43a0-a041-eb6bf7b9bd67
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - options
+_core:
+  default_config_hash: iYcuibOG1BuINhr9Jf-Dg5Inz3B70kGczbHjpcWMtz0
+id: field_collection_item.field_social_icon
+field_name: field_social_icon
+entity_type: field_collection_item
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'fab fa-facebook'
+      label: Facebook
+    -
+      value: 'fab fa-instagram'
+      label: Instagram
+    -
+      value: 'fab fa-linkedin'
+      label: Linkedin
+    -
+      value: 'fab fa-twitter-square'
+      label: Twitter
+    -
+      value: 'fab fa-youtube'
+      label: Youtube
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

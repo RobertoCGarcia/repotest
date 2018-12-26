@@ -1,0 +1,35 @@
+uuid: 038aca4a-6da4-4c9b-82d8-1016cebb3f8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: ZWue536tV7zjj6maP38iv2bq8SNpS351wW9cLvBXG6g
+id: paragraph.field_par_text_box_options
+field_name: field_par_text_box_options
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: TC1
+      label: 'Text Box Option 1'
+    -
+      value: TC2
+      label: 'Text Box Option 2'
+    -
+      value: TC3
+      label: 'Text Box Option 3'
+    -
+      value: TC4
+      label: 'Text Box Option 4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

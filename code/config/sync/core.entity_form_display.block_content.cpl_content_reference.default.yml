@@ -1,0 +1,32 @@
+uuid: 0f4ff1c1-f132-45a3-b555-1222b990e8b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_content_reference
+    - field.field.block_content.cpl_content_reference.field_block_content_ref
+_core:
+  default_config_hash: JWK0ua9kH5pgg0iuajDkS7m-NC6VWltjeYElgZhVunc
+id: block_content.cpl_content_reference.default
+targetEntityType: block_content
+bundle: cpl_content_reference
+mode: default
+content:
+  field_block_content_ref:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

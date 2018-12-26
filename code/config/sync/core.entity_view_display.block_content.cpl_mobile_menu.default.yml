@@ -1,0 +1,55 @@
+uuid: 461e6c81-8e76-4fb2-9ac6-ed44c3d8f8ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_mobile_menu
+    - field.field.block_content.cpl_mobile_menu.field_block_logo
+    - field.field.block_content.cpl_mobile_menu.field_block_menu_type
+    - field.field.block_content.cpl_mobile_menu.field_block_mobile_menus
+    - field.field.block_content.cpl_mobile_menu.field_block_mobile_view
+    - image.style.medium
+  module:
+    - image
+    - options
+    - viewsreference
+_core:
+  default_config_hash: OP3maoLtAZqyHKJC-sxCYi9UHlBfsEvyxDYlXN6PCpc
+id: block_content.cpl_mobile_menu.default
+targetEntityType: block_content
+bundle: cpl_mobile_menu
+mode: default
+content:
+  field_block_logo:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_block_menu_type:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_block_mobile_menus:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: entity_reference_entity_id
+    region: content
+  field_block_mobile_view:
+    weight: 2
+    label: hidden
+    settings:
+      plugin_types:
+        - block
+    third_party_settings: {  }
+    type: viewsreference_formatter
+    region: content
+hidden: {  }

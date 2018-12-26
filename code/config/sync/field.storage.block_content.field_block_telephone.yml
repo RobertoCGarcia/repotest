@@ -1,0 +1,21 @@
+uuid: 6805e36d-e94c-41ee-a385-c5611797f070
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - telephone
+_core:
+  default_config_hash: A5o8eCB3vkwW65D1pVOpae8NZqAyqW6QFAqVHbbQtQo
+id: block_content.field_block_telephone
+field_name: field_block_telephone
+entity_type: block_content
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

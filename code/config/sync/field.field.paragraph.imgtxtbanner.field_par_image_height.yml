@@ -1,0 +1,25 @@
+uuid: 5d6f099e-a218-4222-9d2f-b35fbf9fa004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_image_height
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: GRf9WIpoxfn1i-N1dmffmiypzxz2VO2RWU9b7vJrov0
+id: paragraph.imgtxtbanner.field_par_image_height
+field_name: field_par_image_height
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Image Banner Height'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: H2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

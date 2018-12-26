@@ -1,0 +1,10 @@
+uuid: 0387f036-d114-4ee6-9485-329fbad751c8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CLi1Hacahu2gpJ_cHaIL0HMG30OLdMqNEw9TRn01A1M
+id: cpl_content_reference
+label: 'CPL Content Reference'
+revision: 0
+description: 'Create reusable blocks with content.'

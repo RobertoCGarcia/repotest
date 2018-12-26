@@ -1,0 +1,25 @@
+uuid: 802e3e4c-6236-41eb-bbbe-be9cd8e6503e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_vpadding
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: MpKqrCyMDBCEtL05uHqJ8vyYtK0SQZdsVp5PW5k1bV0
+id: paragraph.imgtxt.field_par_vpadding
+field_name: field_par_vpadding
+entity_type: paragraph
+bundle: imgtxt
+label: 'Vertical Padding'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: NP
+default_value_callback: ''
+settings: {  }
+field_type: list_string

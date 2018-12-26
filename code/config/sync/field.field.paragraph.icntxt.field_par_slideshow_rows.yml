@@ -1,0 +1,25 @@
+uuid: 7b393c3a-71c6-4983-8b2d-b28eaa74aae8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_rows
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: YIvQVpiUBMxPQNDnSO32o3ehFmb0pZQ9zeMapw0-nu0
+id: paragraph.icntxt.field_par_slideshow_rows
+field_name: field_par_slideshow_rows
+entity_type: paragraph
+bundle: icntxt
+label: 'Slideshow Rows'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

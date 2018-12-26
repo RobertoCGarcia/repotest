@@ -1,0 +1,40 @@
+uuid: 698c216b-2d24-4c61-ba61-3be820e2acea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_image
+    - paragraphs.paragraphs_type.blogimage
+  module:
+    - image
+_core:
+  default_config_hash: yS-1axSAhoUHJ88WbDa5o6jw1uEK8WxUHt9K-aS9JbY
+id: paragraph.blogimage.field_par_image
+field_name: field_par_image
+entity_type: paragraph
+bundle: blogimage
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

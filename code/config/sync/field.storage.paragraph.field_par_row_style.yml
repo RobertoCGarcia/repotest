@@ -1,0 +1,38 @@
+uuid: 8df17b72-f67d-48c4-87c0-394b0d0150d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: _jgUSvwk3myt948JNXh9JDEs5OO1ywvSEce3hq_yN48
+id: paragraph.field_par_row_style
+field_name: field_par_row_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: RS1
+      label: 'Row Style 1'
+    -
+      value: RS2
+      label: 'Row Style 2'
+    -
+      value: RS3
+      label: 'Row Style 3'
+    -
+      value: RS4
+      label: 'Row Style 4'
+    -
+      value: RS5
+      label: 'Row Style 5'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

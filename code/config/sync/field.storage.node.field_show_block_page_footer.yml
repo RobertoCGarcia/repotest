@@ -1,0 +1,20 @@
+uuid: 6542caf9-4822-4191-b608-3a8c280b1998
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: QYAJ_ringSmQ7TNW_o2vRogFTo1YO_8UzEmMi0HbsTE
+id: node.field_show_block_page_footer
+field_name: field_show_block_page_footer
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

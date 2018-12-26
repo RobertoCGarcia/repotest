@@ -1,0 +1,8 @@
+uuid: aae4a1ab-0b8a-4818-a697-5a37c78ffe6c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nW3oxm2lVqX6QpRbImLPHCwt2mIq8AkY3Fml_6Uui0I
+id: field_par_content_items
+label: field_par_content_items

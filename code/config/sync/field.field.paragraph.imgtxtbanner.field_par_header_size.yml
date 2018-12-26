@@ -1,0 +1,25 @@
+uuid: cecc9814-217f-4b93-b877-6411f8947be1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_header_size
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: J4LYqEGfkUWA9rJFOnjlWrmcQNAv3iQz4X9dQRDw1Tg
+id: paragraph.imgtxtbanner.field_par_header_size
+field_name: field_par_header_size
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Heading Text Size'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: MD
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,25 @@
+uuid: 8be5bd5e-7b6c-43ef-a7df-4795c6ef359e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_rows
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: zdfeQDsTDFL_3TBnWIJ3f_gEHEQo3ZDH5AXVUS0CBVQ
+id: paragraph.imgtxt.field_par_slideshow_rows
+field_name: field_par_slideshow_rows
+entity_type: paragraph
+bundle: imgtxt
+label: 'Slideshow Rows'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

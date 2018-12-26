@@ -1,0 +1,32 @@
+uuid: bd105f65-07c4-4d14-83ab-5411a8bb3b35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_content_ref
+    - node.type.additional_content
+    - node.type.embedded_paragraphs_page
+    - paragraphs.paragraphs_type.embedded_content
+_core:
+  default_config_hash: XZOXojCJlna61cu_OrLzfOrD-zAg5bYp7--i3zOheec
+id: paragraph.embedded_content.field_par_content_ref
+field_name: field_par_content_ref
+entity_type: paragraph
+bundle: embedded_content
+label: 'Content reference'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      additional_content: additional_content
+      embedded_paragraphs_page: embedded_paragraphs_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: additional_content
+field_type: entity_reference

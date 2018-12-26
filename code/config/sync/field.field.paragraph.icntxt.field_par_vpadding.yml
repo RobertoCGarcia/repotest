@@ -1,0 +1,25 @@
+uuid: ab8d2735-05a5-45a2-9a9b-844afeec9929
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_vpadding
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: pOC9Cri_0EDmmpJrdHw-JONgl5GDnDWDJdrdNsK9HXY
+id: paragraph.icntxt.field_par_vpadding
+field_name: field_par_vpadding
+entity_type: paragraph
+bundle: icntxt
+label: 'Vertical Padding'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: NP
+default_value_callback: ''
+settings: {  }
+field_type: list_string

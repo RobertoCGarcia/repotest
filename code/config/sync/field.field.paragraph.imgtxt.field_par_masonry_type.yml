@@ -1,0 +1,25 @@
+uuid: 6b8dee5b-7970-494f-bee5-30adab537659
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_masonry_type
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: 8ulDV82_m8F6sV2N1GmO0GstxxZbwnpFZ-ZtdmEw5qc
+id: paragraph.imgtxt.field_par_masonry_type
+field_name: field_par_masonry_type
+entity_type: paragraph
+bundle: imgtxt
+label: 'Masonry Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: M1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

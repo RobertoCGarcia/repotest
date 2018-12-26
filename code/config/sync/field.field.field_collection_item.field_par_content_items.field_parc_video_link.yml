@@ -1,0 +1,27 @@
+uuid: 3411519d-60c2-4107-93a0-428a3f03be8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_video_link
+    - field_collection.field_collection.field_par_content_items
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: pFX5BKd1KzFwNQz0-CIsjveykes8lYvPWRgtahj0mr0
+id: field_collection_item.field_par_content_items.field_parc_video_link
+field_name: field_parc_video_link
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: 'External Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: '0'
+    youtube_playlist: '0'
+    youtube: '0'
+field_type: video_embed_field

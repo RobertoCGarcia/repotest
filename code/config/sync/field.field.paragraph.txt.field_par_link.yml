@@ -1,0 +1,25 @@
+uuid: 11ded8ac-e6f5-46fb-9bc7-21d18660b912
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_link
+    - paragraphs.paragraphs_type.txt
+  module:
+    - link
+_core:
+  default_config_hash: ZI7lcvnizJ10LkuldP0Xp5qENGmmIXerYuUkFOSSuOE
+id: paragraph.txt.field_par_link
+field_name: field_par_link
+entity_type: paragraph
+bundle: txt
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

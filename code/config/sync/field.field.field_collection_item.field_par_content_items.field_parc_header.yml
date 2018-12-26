@@ -1,0 +1,21 @@
+uuid: 6c5ac8b6-5dff-4fd1-a3b1-328f514e377f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_header
+    - field_collection.field_collection.field_par_content_items
+_core:
+  default_config_hash: 9JoZ6_PIegJtDF8c5RuFbOT6DSEJ3xJE4p_GWl_wwq8
+id: field_collection_item.field_par_content_items.field_parc_header
+field_name: field_parc_header
+entity_type: field_collection_item
+bundle: field_par_content_items
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

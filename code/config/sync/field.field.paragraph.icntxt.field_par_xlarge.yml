@@ -1,0 +1,25 @@
+uuid: 434dcb4d-d409-40be-9eb6-e030eaae811c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_xlarge
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: VlH3V2-tPPsvu05bo2zBJfw2nXno8vEs_z8uiZO_hDM
+id: paragraph.icntxt.field_par_xlarge
+field_name: field_par_xlarge
+entity_type: paragraph
+bundle: icntxt
+label: 'Xlarge Columns'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1C
+default_value_callback: ''
+settings: {  }
+field_type: list_string

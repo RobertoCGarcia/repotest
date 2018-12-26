@@ -1,0 +1,59 @@
+uuid: 2039d14d-819d-40b6-aa96-27fddd79bb60
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_mobile_menu
+    - field.field.block_content.cpl_mobile_menu.field_block_logo
+    - field.field.block_content.cpl_mobile_menu.field_block_menu_type
+    - field.field.block_content.cpl_mobile_menu.field_block_mobile_menus
+    - field.field.block_content.cpl_mobile_menu.field_block_mobile_view
+    - image.style.thumbnail
+  module:
+    - image
+    - viewsreference
+_core:
+  default_config_hash: VbqGs5pcwDa9x2qILPlFuSb660BwaVkvRh0-LRiLtSU
+id: block_content.cpl_mobile_menu.default
+targetEntityType: block_content
+bundle: cpl_mobile_menu
+mode: default
+content:
+  field_block_logo:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_block_menu_type:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_block_mobile_menus:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_block_mobile_view:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: viewsreference_select
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

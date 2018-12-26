@@ -1,0 +1,22 @@
+uuid: a38b4c84-8982-4e00-abb3-a364342af4ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - system
+_core:
+  default_config_hash: LofA09AsOfFpmsysJzbA6IxkEXq3CM8t-5aDnqdaEyI
+id: block_content.field_block_nav_menu
+field_name: field_block_nav_menu
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: menu
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

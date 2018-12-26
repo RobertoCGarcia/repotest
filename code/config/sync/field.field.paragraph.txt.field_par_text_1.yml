@@ -1,0 +1,33 @@
+uuid: 3c54f558-b3b6-4a4d-b643-522acba9798c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_text_1
+    - paragraphs.paragraphs_type.txt
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    restricted_html: restricted_html
+    article_html: '0'
+    basic_html: '0'
+    text_paragraph_html: '0'
+    full_html: '0'
+    plain_text: '0'
+    paragraph_custom_html: '0'
+_core:
+  default_config_hash: BfYgsVRMwX3HVye5_9cxdWtTIdRHz_jMeDnaJkWVZc4
+id: paragraph.txt.field_par_text_1
+field_name: field_par_text_1
+entity_type: paragraph
+bundle: txt
+label: 'Content Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

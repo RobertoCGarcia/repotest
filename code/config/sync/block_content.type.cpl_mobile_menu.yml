@@ -1,0 +1,10 @@
+uuid: 723802b3-d625-45f0-90f4-741302410d6e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4S6AfaggD05PKLg-px-OnP50XJBT-PuZOfHdZpOTK84
+id: cpl_mobile_menu
+label: 'CPL Mobile Menu'
+revision: 0
+description: 'Mobile menu block.'

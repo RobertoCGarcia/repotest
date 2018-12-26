@@ -1,0 +1,73 @@
+uuid: d974c07c-8e91-4bb3-8c6e-c828b8a73d01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.embedded_paragraphs_page.field_page_paragraphs
+    - node.type.embedded_paragraphs_page
+  module:
+    - cpl_paragraphs
+    - path
+_core:
+  default_config_hash: h1sBT3_uqIS6Nh_uVs2cAtZDtFKtAn57lOM6gymf5gA
+id: node.embedded_paragraphs_page.default
+targetEntityType: node
+bundle: embedded_paragraphs_page
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_page_paragraphs:
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: cpl_paragraphs_widget
+    region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

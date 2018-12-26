@@ -1,0 +1,35 @@
+uuid: 79280dd7-3d79-45c3-81ab-a5157b62de17
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: mcPnzglUzdMlwE-QEceyGF5A3JwymEch2UHwBTm5LX8
+id: block_content.field_block_menu_type
+field_name: field_block_menu_type
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: M1
+      label: 'Mobile Menu Type 1'
+    -
+      value: M2
+      label: 'Mobile Menu Type 2'
+    -
+      value: M3
+      label: 'Mobile Menu Type 3'
+    -
+      value: M4
+      label: 'Mobile Menu Type 4'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

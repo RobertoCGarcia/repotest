@@ -1,0 +1,24 @@
+uuid: df3a24db-0515-47dd-b7cf-72a705400258
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.html.field_par_html
+    - paragraphs.paragraphs_type.html
+  module:
+    - text
+_core:
+  default_config_hash: fwg3LXDzvnRSysZ5_is-HMSTOtcxwBpoSSWuiDhOc7o
+id: paragraph.html.default
+targetEntityType: paragraph
+bundle: html
+mode: default
+content:
+  field_par_html:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

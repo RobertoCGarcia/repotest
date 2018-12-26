@@ -1,0 +1,21 @@
+uuid: 648c7e3e-06d6-4208-ba17-b0452010ecaa
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: DC8S6m64fl6T14p5M2KiJr_WSKNQMLqS37zvTrnC4zI
+id: block_content.field_block_url
+field_name: field_block_url
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

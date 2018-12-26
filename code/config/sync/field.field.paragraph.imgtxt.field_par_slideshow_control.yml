@@ -1,0 +1,25 @@
+uuid: 1ac3c19d-e948-4ae7-8652-de41a49125dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_slideshow_control
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: 1faXXvyTeEz5yTchBa8E0_0Dxe9HvqcMhrFuSvHNPLQ
+id: paragraph.imgtxt.field_par_slideshow_control
+field_name: field_par_slideshow_control
+entity_type: paragraph
+bundle: imgtxt
+label: 'Slideshow Control'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: PG
+default_value_callback: ''
+settings: {  }
+field_type: list_string

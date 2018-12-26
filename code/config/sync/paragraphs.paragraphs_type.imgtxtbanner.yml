@@ -1,0 +1,11 @@
+uuid: 55115ed0-c241-4277-a65f-add0bd75cec3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zI5xHWeWAVlWAaFPJrO_XsVIqKA30qrADXK5FCugShE
+id: imgtxtbanner
+label: 'Image Text Banner'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

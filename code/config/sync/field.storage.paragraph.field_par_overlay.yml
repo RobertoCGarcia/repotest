@@ -1,0 +1,32 @@
+uuid: f4d12a04-de57-489f-974b-5736563a2276
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: hcNO4C_NSA1WPIMCS8jLp-k4m3Bi8nj8J4WXyY2usMo
+id: paragraph.field_par_overlay
+field_name: field_par_overlay
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'NO'
+      label: None
+    -
+      value: LO
+      label: Light
+    -
+      value: DO
+      label: Dark
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

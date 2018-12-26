@@ -1,0 +1,25 @@
+uuid: 46af530c-8b37-4267-88fa-c496719b990c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_display_mode
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: 88oEC6slcRnqm7Jiijnzefd0JmV0_AMrLIEIKUnUbh8
+id: paragraph.icntxt.field_par_display_mode
+field_name: field_par_display_mode
+entity_type: paragraph
+bundle: icntxt
+label: 'Display Mode'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'OFF'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

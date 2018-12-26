@@ -1,0 +1,24 @@
+uuid: 95389484-0bdb-4088-bf73-32bcfd6babcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blogtext.field_par_text
+    - paragraphs.paragraphs_type.blogtext
+  module:
+    - text
+_core:
+  default_config_hash: 8wJciFSlolM3dDPsu7vdn1D-wuZjwfI-MOFgRUyv6zI
+id: paragraph.blogtext.default
+targetEntityType: paragraph
+bundle: blogtext
+mode: default
+content:
+  field_par_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

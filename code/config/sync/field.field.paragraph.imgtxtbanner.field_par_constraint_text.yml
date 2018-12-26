@@ -1,0 +1,25 @@
+uuid: ccf8d4bb-08d4-4131-a231-e47313b0c92c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_constraint_text
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: vgkhElbeZHizPJFiZ89RmSMdm2o7OOvPXAOhPoezkK8
+id: paragraph.imgtxtbanner.field_par_constraint_text
+field_name: field_par_constraint_text
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Text Box Constraint'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: FW
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: 1ecb0f51-81de-40ac-99df-ad7b6b7e83d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - token_filter
+_core:
+  default_config_hash: YI_vyrkX7YpWY0GcshV-G4WtxZlr0M38I9hxhc--OPE
+name: 'Paragraph custom HTML'
+format: paragraph_custom_html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang class id data-* title> <em> <strong> <cite> <blockquote cite> <ul type class id data-*> <ol start class id data-* type=''1 A I''> <li class id data-*> <dl> <dt> <dd> <h1 class id> <h2 class id> <h3 class id> <h4 class id> <h5 class id> <h6 class id> <div class id data-*> <p class id data-*> <section class id data-*> <img alt src title class id data-*> <i class> <button type class id> <form action method class id> <label class for> <input type id class name value> <br>'
+      filter_html_help: false
+      filter_html_nofollow: false
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: true
+    weight: 0
+    settings: {  }

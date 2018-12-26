@@ -1,0 +1,28 @@
+uuid: b649cd97-6247-4af9-8650-bdde3ac84f05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parc_media_ref
+    - node.type.additional_content
+_core:
+  default_config_hash: sBGvvurwAWeTOitUlFlYbW71BJmjkU8mlkd-g67pvAg
+id: node.additional_content.field_parc_media_ref
+field_name: field_parc_media_ref
+entity_type: node
+bundle: additional_content
+label: 'Internal Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

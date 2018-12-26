@@ -1,0 +1,25 @@
+uuid: c4d5c82d-5381-4c26-b350-798d5106a232
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_text_box_options
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: KnB49ZokIKwQPIfWT6VTtE_E3rELzZuGtjYr_tSxp2U
+id: paragraph.icntxt.field_par_text_box_options
+field_name: field_par_text_box_options
+entity_type: paragraph
+bundle: icntxt
+label: 'Text Box Options'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: TC1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

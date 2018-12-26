@@ -1,0 +1,12 @@
+uuid: b729afaf-3925-4ac9-8596-9282aa2bc956
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 4UkcaYbZcFYBB7vzN2QCQAqaHVqV8RJBaPZsy5vICOA
+id: node.user_page_slideshow_1
+label: 'User Page Slideshow 1'
+targetEntityType: node
+cache: true

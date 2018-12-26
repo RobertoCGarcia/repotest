@@ -1,0 +1,11 @@
+uuid: 481038f6-18be-44b3-8c00-a0e60f07bd6f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z5JT-LFLL9UF517sNxL47Gh3KWcowHH-Q1llv5SrFf8
+id: view
+label: View
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

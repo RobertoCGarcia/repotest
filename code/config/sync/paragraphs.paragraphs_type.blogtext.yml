@@ -1,0 +1,11 @@
+uuid: e650b7bb-5c9c-4475-9158-91f03e3167f0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: awX1HToKSQBm9pEhPrOA46GRDpwY-9g-leab0JKnegA
+id: blogtext
+label: 'Blog Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

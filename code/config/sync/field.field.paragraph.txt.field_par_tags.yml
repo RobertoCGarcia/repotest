@@ -1,0 +1,25 @@
+uuid: c7eb3ec0-d54e-4238-9fc3-c6bf03c3772e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_tags
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: 6c-K1O2eGvNUxchgL7R5ROxyDKppqqv8kB2YTMZKssQ
+id: paragraph.txt.field_par_tags
+field_name: field_par_tags
+entity_type: paragraph
+bundle: txt
+label: 'Heading Tag'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

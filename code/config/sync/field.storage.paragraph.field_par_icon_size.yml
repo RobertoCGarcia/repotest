@@ -1,0 +1,29 @@
+uuid: 9dca93e5-a70c-4aac-b624-76d1cbda7946
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: Xh4nZxHdI6j9dOAIam5kkr7hfWT-uXahS4QFhed_o3A
+id: paragraph.field_par_icon_size
+field_name: field_par_icon_size
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IS1
+      label: 'Icon Size 1'
+    -
+      value: IS2
+      label: 'Icon Size 2'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 5b48d3c5-217d-47e5-9b88-b0ce1a27ae00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_block_page_header
+    - node.type.paragraphs_page
+_core:
+  default_config_hash: 3b8WX9py8YZ00P2z3S3tbK-72Pr-juK403s7RE_F0HE
+id: node.paragraphs_page.field_show_block_page_header
+field_name: field_show_block_page_header
+entity_type: node
+bundle: paragraphs_page
+label: 'Show Page Header'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

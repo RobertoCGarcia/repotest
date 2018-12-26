@@ -1,0 +1,28 @@
+uuid: 302c544a-3d1f-4eef-829d-8972901631be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.embedded_paragraphs_page.field_page_paragraphs
+    - node.type.embedded_paragraphs_page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: iy8SkIIZLMH06U99M0LRW_ht26E_pegFQlT1GsqngPk
+id: node.embedded_paragraphs_page.default
+targetEntityType: node
+bundle: embedded_paragraphs_page
+mode: default
+content:
+  field_page_paragraphs:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  links: true

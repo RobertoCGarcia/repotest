@@ -1,0 +1,21 @@
+uuid: 68afc85c-0946-4aa5-b1a9-b3490e9944b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_footer
+    - field.storage.block_content.field_block_mail
+_core:
+  default_config_hash: MKnaTU95BmrwrJkif5NdZ2N3GjISDLRYJIA_w_8Kypc
+id: block_content.cpl_page_footer.field_block_mail
+field_name: field_block_mail
+entity_type: block_content
+bundle: cpl_page_footer
+label: Mail
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

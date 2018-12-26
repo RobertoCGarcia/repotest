@@ -1,0 +1,21 @@
+uuid: e233c0f8-85f2-4725-b6ae-a2ddc0773d57
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_header
+    - field_collection.field_collection.field_par_parallax_item
+_core:
+  default_config_hash: s1P9AldzoA7OjagBaOC8gskgeHND4_Wn1pM53h7ff_g
+id: field_collection_item.field_par_parallax_item.field_parc_header
+field_name: field_parc_header
+entity_type: field_collection_item
+bundle: field_par_parallax_item
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

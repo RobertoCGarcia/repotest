@@ -1,0 +1,25 @@
+uuid: f4a7e5af-c5e6-4dc7-a277-7d6da5c8f1fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_header
+    - field.storage.block_content.field_block_header_type
+  module:
+    - options
+_core:
+  default_config_hash: w1-ygjB2CEc3aroVbpl_l8j-T7EXvUwQr1eZvxKPF34
+id: block_content.cpl_page_header.field_block_header_type
+field_name: field_block_header_type
+entity_type: block_content
+bundle: cpl_page_header
+label: 'Header Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: H1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

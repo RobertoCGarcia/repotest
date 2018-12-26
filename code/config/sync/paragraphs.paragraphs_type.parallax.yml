@@ -1,0 +1,11 @@
+uuid: 14695a93-5b31-4d80-8988-3b64e547d3a5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tMWe-hZCMreN3Jy-nByivmSYHoPzoao5LNUvpWR_ISA
+id: parallax
+label: Parallax
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

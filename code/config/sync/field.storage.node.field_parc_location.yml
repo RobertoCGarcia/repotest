@@ -1,0 +1,41 @@
+uuid: d1dcb711-b9df-4c23-bb4a-0a39859f81c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: zG-WBIs_zmMjK5F1NqRiqzU-ER-RfKABimkSfxt0YR8
+id: node.field_parc_location
+field_name: field_parc_location
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: none
+      label: None
+    -
+      value: login
+      label: Login
+    -
+      value: registration
+      label: Registration
+    -
+      value: wholesale
+      label: 'Wholesale registration'
+    -
+      value: mobilemenu
+      label: 'Mobile menu slider'
+    -
+      value: megamenu
+      label: Megamenu
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

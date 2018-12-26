@@ -1,0 +1,24 @@
+uuid: e649ec74-7984-475b-b80c-e6b36f4817fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_content_reference
+    - field.field.block_content.cpl_content_reference.field_block_content_ref
+_core:
+  default_config_hash: lxSsAx4_KWig4QmoDIYAvVIwPH9EwJzMEeAaHKcYO6c
+id: block_content.cpl_content_reference.default
+targetEntityType: block_content
+bundle: cpl_content_reference
+mode: default
+content:
+  field_block_content_ref:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

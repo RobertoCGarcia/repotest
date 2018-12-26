@@ -1,0 +1,24 @@
+uuid: 899dba81-9fb1-46ee-aa93-dc3bfd4baf03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_content.field_par_content_ref
+    - paragraphs.paragraphs_type.embedded_content
+_core:
+  default_config_hash: 9ARVRI8cnxi_G4RLkK6r-1NaObCkppDXxU5m3LL4cUY
+id: paragraph.embedded_content.default
+targetEntityType: paragraph
+bundle: embedded_content
+mode: default
+content:
+  field_par_content_ref:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

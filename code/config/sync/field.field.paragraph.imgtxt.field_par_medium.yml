@@ -1,0 +1,25 @@
+uuid: 6a3ba803-3bb0-471c-9d2b-306107cb3679
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_medium
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: axP-KK2i3DpM6NuFhrq-hjVdqGAZg77va0tmFjAKv3o
+id: paragraph.imgtxt.field_par_medium
+field_name: field_par_medium
+entity_type: paragraph
+bundle: imgtxt
+label: 'Medium Columns'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1C
+default_value_callback: ''
+settings: {  }
+field_type: list_string

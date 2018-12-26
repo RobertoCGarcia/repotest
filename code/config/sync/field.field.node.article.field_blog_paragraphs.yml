@@ -1,0 +1,48 @@
+uuid: 0ddc90ab-0af5-4527-a60a-7a6a92c818a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_paragraphs
+    - node.type.article
+    - paragraphs.paragraphs_type.blogimage
+    - paragraphs.paragraphs_type.blogtext
+    - paragraphs.paragraphs_type.blogvideo
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: _u2rFUNdcukEz0XOX7o_pknz6nPF0qkcxw6tiB0TkQc
+id: node.article.field_blog_paragraphs
+field_name: field_blog_paragraphs
+entity_type: node
+bundle: article
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      blogtext: blogtext
+      blogimage: blogimage
+      blogvideo: blogvideo
+      imgtxt: imgtxt
+    target_bundles_drag_drop:
+      blogtext:
+        enabled: true
+        weight: -15
+      blogimage:
+        enabled: true
+        weight: -14
+      blogvideo:
+        enabled: true
+        weight: -13
+      imgtxt:
+        enabled: true
+        weight: -11
+field_type: entity_reference_revisions

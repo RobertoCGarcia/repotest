@@ -1,0 +1,42 @@
+uuid: 56baa886-03e2-436b-a480-28b2e3d04013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_view_ref
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - viewsreference
+_core:
+  default_config_hash: SyZKF6mcKB-jjHhf92Dm0com1zjPrqps-_gzhxtpo7w
+id: paragraph.icntxt.field_par_view_ref
+field_name: field_par_view_ref
+entity_type: paragraph
+bundle: icntxt
+label: 'Displayed content: view reference'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:view'
+  handler_settings:
+    target_bundles: null
+    auto_create: 0
+  plugin_types:
+    embed: embed
+    default: 0
+    page: 0
+    block: 0
+    attachment: 0
+    rest_export: 0
+    feed: 0
+  preselect_views: {  }
+  enabled_settings:
+    limit: limit
+    argument: 0
+    offset: 0
+    pager: 0
+    title: 0
+field_type: viewsreference

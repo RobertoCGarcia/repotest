@@ -1,0 +1,23 @@
+uuid: 7096c838-f610-4cd2-8cbb-33d240252c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_background_color
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: pPvs2cI29Lra9SD-Tvf3_OqNOdXmuOdH1y4i1H7AjwM
+id: paragraph.imgtxtbanner.field_par_background_color
+field_name: field_par_background_color
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Background Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

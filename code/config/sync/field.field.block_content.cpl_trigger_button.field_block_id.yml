@@ -1,0 +1,21 @@
+uuid: 5e8df128-6a5a-4144-92b8-adf34aa66b99
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_trigger_button
+    - field.storage.block_content.field_block_id
+_core:
+  default_config_hash: bi8rlJEbVqvYYoHXq50kqbc6tmNvtNZCFOVtbbEfLZA
+id: block_content.cpl_trigger_button.field_block_id
+field_name: field_block_id
+entity_type: block_content
+bundle: cpl_trigger_button
+label: 'Modal ID'
+description: 'Add id for modal window without hash (#).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

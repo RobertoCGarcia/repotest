@@ -1,0 +1,12 @@
+uuid: 539770b5-778d-4074-8d71-b95c597af143
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: bM-bucT2tyRsSGdpap45_5U2DTvTpVn7mqNK5i396Bk
+id: node.megamenu_ad_slideshow
+label: 'Megamenu Ad Slideshow'
+targetEntityType: node
+cache: true

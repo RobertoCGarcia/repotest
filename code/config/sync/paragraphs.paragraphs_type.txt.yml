@@ -1,0 +1,11 @@
+uuid: 1e83ebf6-2fb8-4c20-92f4-3085a165524f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: aoxOyufVVfdCl3ZzJ7sugMr5-evnWypGzBOf13P3L-4
+id: txt
+label: 'Text Column'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

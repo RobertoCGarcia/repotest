@@ -1,0 +1,23 @@
+uuid: 5cb90fea-50f8-4c5a-a829-3338219d4c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_parallax
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: oXkBdfugC-Th5WJMA70g-DIgVDrv8k0hyxXq4fwiogI
+id: paragraph.icntxt.field_par_parallax
+field_name: field_par_parallax
+entity_type: paragraph
+bundle: icntxt
+label: Parallax
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

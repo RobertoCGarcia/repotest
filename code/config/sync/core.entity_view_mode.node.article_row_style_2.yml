@@ -1,0 +1,12 @@
+uuid: a30e3952-2aaf-407c-b86c-ab34ff9fe8d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: HU5rTcLTZ2wgiXq4YCCHz8Zh8AFUG3anDKSYxxAgBDs
+id: node.article_row_style_2
+label: 'Article Row Style 2'
+targetEntityType: node
+cache: true

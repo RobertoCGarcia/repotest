@@ -1,0 +1,23 @@
+uuid: 90cc121b-f94e-4c27-8413-cd32aa9d2db4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_header
+    - field.storage.block_content.field_block_header_display
+  module:
+    - options
+_core:
+  default_config_hash: DJmsd-U4l30PUOqp_0qntRaNQ9Nb2uxBV-TCi20maVw
+id: block_content.cpl_page_header.field_block_header_display
+field_name: field_block_header_display
+entity_type: block_content
+bundle: cpl_page_header
+label: 'Header Display'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

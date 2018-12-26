@@ -1,0 +1,25 @@
+uuid: fe1404c5-ccdd-4402-87e6-c00baf0518d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_blogs_page
+    - node.type.paragraphs_page
+_core:
+  default_config_hash: H9WSmvmi95nEUU5XJWyBrXIdV623MJR9EX_jcYPhmWI
+id: node.paragraphs_page.field_main_blogs_page
+field_name: field_main_blogs_page
+entity_type: node
+bundle: paragraphs_page
+label: 'Main Blogs page'
+description: 'Make this node as "Main Blog" for article breadcrumbs. Domain access should be unique for every "Main Blog" .'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,34 @@
+uuid: 748fc38e-caaf-474e-810f-8cd1e87ae024
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.additional_content.field_parc_body
+    - field.field.node.additional_content.field_parc_header
+    - field.field.node.additional_content.field_parc_image
+    - field.field.node.additional_content.field_parc_link
+    - field.field.node.additional_content.field_parc_link_type
+    - field.field.node.additional_content.field_parc_location
+    - field.field.node.additional_content.field_parc_media_ref
+    - node.type.additional_content
+  module:
+    - user
+_core:
+  default_config_hash: Dd-bZ8STNUvaId1R34L-UcploS899g-PWPn1kS3io1w
+id: node.additional_content.teaser
+targetEntityType: node
+bundle: additional_content
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_parc_body: true
+  field_parc_header: true
+  field_parc_image: true
+  field_parc_link: true
+  field_parc_link_type: true
+  field_parc_location: true
+  field_parc_media_ref: true

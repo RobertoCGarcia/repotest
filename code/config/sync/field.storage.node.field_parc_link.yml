@@ -1,0 +1,21 @@
+uuid: ca86d327-935b-4360-81a9-5c98f4cec8de
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: z7UtF1yu3FHfwdbpWr1pAhBq0n6SxoGgw7OBIdn893g
+id: node.field_parc_link
+field_name: field_parc_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

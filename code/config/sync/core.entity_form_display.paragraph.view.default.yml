@@ -1,0 +1,29 @@
+uuid: 6f802a12-82e2-44a0-a997-378561484444
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.view.field_par_view
+    - paragraphs.paragraphs_type.view
+  module:
+    - viewsreference
+_core:
+  default_config_hash: U5OdAth4_xU_VCGUOYf52O49IecjsL3NKb_5yi3GU3g
+id: paragraph.view.default
+targetEntityType: paragraph
+bundle: view
+mode: default
+content:
+  field_par_view:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: viewsreference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

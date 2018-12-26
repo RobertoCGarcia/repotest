@@ -1,0 +1,19 @@
+uuid: 03c68e5f-9bbe-4144-9037-5265975cb642
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: pt-9O6g6G0nI86LcnQTpc36Kg3C-YgkoGTjy4TycicE
+name: 'Additional content'
+type: additional_content
+description: 'Pieces of content to be used inside Paragraphs.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

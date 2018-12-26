@@ -1,0 +1,11 @@
+uuid: 68f4555a-39d2-4778-b5ae-9e9cedec34c0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EOXgjCetYaT8B6T7aj-gGtNzAOXNPPfafW1A_9HF0G4
+id: icntxt
+label: 'Icon Text'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

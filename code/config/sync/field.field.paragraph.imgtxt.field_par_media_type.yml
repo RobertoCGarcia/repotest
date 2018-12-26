@@ -1,0 +1,25 @@
+uuid: 272eb0b3-de6f-4346-b3fe-03a109a3fc1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_media_type
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: _TuAZ4-wbNc1FXvARtH9vGgx2vNhdeedglvVy_3IOCM
+id: paragraph.imgtxt.field_par_media_type
+field_name: field_par_media_type
+entity_type: paragraph
+bundle: imgtxt
+label: 'Media Type'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: IM
+default_value_callback: ''
+settings: {  }
+field_type: list_string

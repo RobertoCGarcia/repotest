@@ -1,0 +1,38 @@
+uuid: 1f6b61c0-28d2-4ab5-9b64-b1f6486486ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: _aQ7z4b7_ee2lm04kVOHQ0X03vdaLtKEoE4YBxSK8bU
+id: paragraph.field_par_medium
+field_name: field_par_medium
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 1C
+      label: '1 Columns'
+    -
+      value: 2C
+      label: '2 Columns'
+    -
+      value: 3C
+      label: '3 Columns'
+    -
+      value: 4C
+      label: '4 Columns'
+    -
+      value: 6C
+      label: '6 Columns'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

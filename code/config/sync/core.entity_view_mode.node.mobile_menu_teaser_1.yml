@@ -1,0 +1,12 @@
+uuid: ad656f49-ba84-4f6b-9e04-f96f44acd706
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Vm3hdBig82ZgubG75s5Ky01KKR66MKQey1qU6zSdq9I
+id: node.mobile_menu_teaser_1
+label: 'Mobile Menu Teaser 1'
+targetEntityType: node
+cache: true

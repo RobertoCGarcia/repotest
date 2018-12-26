@@ -1,0 +1,22 @@
+uuid: 33f107f0-517f-486b-826d-a632ddc4a42e
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - webform
+_core:
+  default_config_hash: 24PeJtUHffxvbCcAt9Ei33A-Gt5A8ij0l-MKRLEtKg8
+id: field_collection_item.field_parc_webform
+field_name: field_parc_webform
+entity_type: field_collection_item
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

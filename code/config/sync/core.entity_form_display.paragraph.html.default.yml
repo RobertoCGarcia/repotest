@@ -1,0 +1,32 @@
+uuid: 1303f1ab-d85d-47a4-9a18-81f8c1c2bded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.html.field_par_html
+    - paragraphs.paragraphs_type.html
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: 3GxUkjOurwgplTpXBW6B1XYiHejT-CJtyW3-dZYPTDQ
+id: paragraph.html.default
+targetEntityType: paragraph
+bundle: html
+mode: default
+content:
+  field_par_html:
+    weight: 0
+    settings:
+      rows: 10
+      placeholder: ''
+    third_party_settings:
+      allowed_formats:
+        hide_help: '1'
+        hide_guidelines: '1'
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,12 @@
+uuid: 694b34c7-9d9a-4737-a1bc-f976a045188e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 5kcaIdRDyZ6NFElRjq__VAN0Y4ABFketk3aRjjSP2yA
+id: node.megamenu_style_1
+label: 'Megamenu Style 1'
+targetEntityType: node
+cache: true

@@ -1,0 +1,21 @@
+uuid: 56bf84ee-cc1f-43ab-ba7e-6ed070613bc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parc_header
+    - node.type.additional_content
+_core:
+  default_config_hash: Fg_Oy1gfITNGYfhx8zNHqOR8uZVxxXU76B-vWTdVhUg
+id: node.additional_content.field_parc_header
+field_name: field_parc_header
+entity_type: node
+bundle: additional_content
+label: Header
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

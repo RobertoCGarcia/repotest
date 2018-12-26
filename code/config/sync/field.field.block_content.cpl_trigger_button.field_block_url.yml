@@ -1,0 +1,25 @@
+uuid: eab9c9f2-abb3-4c62-8899-14322857bbee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_trigger_button
+    - field.storage.block_content.field_block_url
+  module:
+    - link
+_core:
+  default_config_hash: t1ZpBL24Jnm0RaWbYiYLSZZAV2QbeFv-_f7pTP0nWOU
+id: block_content.cpl_trigger_button.field_block_url
+field_name: field_block_url
+entity_type: block_content
+bundle: cpl_trigger_button
+label: 'Url to trigger'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

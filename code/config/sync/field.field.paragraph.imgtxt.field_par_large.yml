@@ -1,0 +1,25 @@
+uuid: ebab7c99-0c6e-4e12-a41f-f5f9ec5705e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_large
+    - paragraphs.paragraphs_type.imgtxt
+  module:
+    - options
+_core:
+  default_config_hash: GZNfbhA9IAwAHYNXSrItWPzjdA5YGkBLHB-x7asQvMw
+id: paragraph.imgtxt.field_par_large
+field_name: field_par_large
+entity_type: paragraph
+bundle: imgtxt
+label: 'Large Columns'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 1C
+default_value_callback: ''
+settings: {  }
+field_type: list_string

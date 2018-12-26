@@ -1,0 +1,32 @@
+uuid: b3a82bc8-d5cb-4b82-9ba4-ff9487a2a085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_parc_body
+    - field_collection.field_collection.field_par_parallax_item
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    text_paragraph_html: text_paragraph_html
+    article_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: tlP04-JA-s6BbzU92QRnoPNyNAeeCbHZ3hQhgieGNp8
+id: field_collection_item.field_par_parallax_item.field_parc_body
+field_name: field_parc_body
+entity_type: field_collection_item
+bundle: field_par_parallax_item
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,25 @@
+uuid: cea770e3-93cf-4a9c-84ef-f98501307a0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_position
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: TFnR-0AwSNNQJRPqoWv7V6xbf4y7SNuQJzXZuh8hyN4
+id: paragraph.txt.field_par_position
+field_name: field_par_position
+entity_type: paragraph
+bundle: txt
+label: Alignment
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: CE
+default_value_callback: ''
+settings: {  }
+field_type: list_string

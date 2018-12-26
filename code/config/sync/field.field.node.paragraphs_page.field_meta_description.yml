@@ -1,0 +1,21 @@
+uuid: 928bd640-ad20-48d9-87a8-219f069c185b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_description
+    - node.type.paragraphs_page
+_core:
+  default_config_hash: aav88ME3cDChnhwDX8MuAboi3L9uwGkIbVSPCUycE-E
+id: node.paragraphs_page.field_meta_description
+field_name: field_meta_description
+entity_type: node
+bundle: paragraphs_page
+label: 'Meta Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

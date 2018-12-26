@@ -1,0 +1,20 @@
+uuid: 648b8307-b347-4661-997c-8c8c2da306a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: vZ66ZkUB-L9c08gvq2FcYAJqVK111MoIjZhoWZLSFEw
+name: 'Paragraphs Page'
+type: paragraphs_page
+description: 'Use <em>paragraphs pages</em> to build feature rich pages, like landings.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

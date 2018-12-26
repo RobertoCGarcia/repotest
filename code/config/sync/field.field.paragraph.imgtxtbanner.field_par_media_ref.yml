@@ -1,0 +1,28 @@
+uuid: 79db7e61-0dd6-4ba7-9bf9-6a364d995a54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_media_ref
+    - paragraphs.paragraphs_type.imgtxtbanner
+_core:
+  default_config_hash: zAMpIFeKFuWQ3Dd7G-GdkYGgbaWa_QlCNS4MKcfmKT4
+id: paragraph.imgtxtbanner.field_par_media_ref
+field_name: field_par_media_ref
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Internal Video'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,25 @@
+uuid: 6a7dc5b6-c82b-4938-8e5d-49d375f79ee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_constraint
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: cFoWzcwPfpsYKDOb6rLd30Nu9oXhuMn-A5yC4qhaQ-4
+id: paragraph.imgtxtbanner.field_par_constraint
+field_name: field_par_constraint
+entity_type: paragraph
+bundle: imgtxtbanner
+label: Constraint
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: FW
+default_value_callback: ''
+settings: {  }
+field_type: list_string

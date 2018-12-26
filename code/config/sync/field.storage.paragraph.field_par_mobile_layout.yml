@@ -1,0 +1,26 @@
+uuid: 45166abe-2a10-4bff-8088-b8dcc9ad0167
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: iTtFE4QRtTU-qEY1YlFbVk3b2Hfmexj5NsioyLe0_40
+id: paragraph.field_par_mobile_layout
+field_name: field_par_mobile_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: M1
+      label: 'Mobile Layout 1'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

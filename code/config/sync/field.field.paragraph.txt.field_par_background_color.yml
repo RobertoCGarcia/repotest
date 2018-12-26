@@ -1,0 +1,23 @@
+uuid: 0916216b-8ac4-4cb6-a0b9-aa478f00a012
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_background_color
+    - paragraphs.paragraphs_type.txt
+  module:
+    - options
+_core:
+  default_config_hash: LcVmhWDw8px1xjbEGjDN205JXXOFFWHk3iWy4aVjj6Q
+id: paragraph.txt.field_par_background_color
+field_name: field_par_background_color
+entity_type: paragraph
+bundle: txt
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

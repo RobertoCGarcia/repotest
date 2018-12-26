@@ -1,0 +1,23 @@
+uuid: c248c05e-09db-46c5-91d8-ef8f0d8c092a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_displayed_con
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: hAhYJeHAMD2cykoPHUHzzH0fGWBSZZHmod4BK980huE
+id: paragraph.imgtxtbanner.field_par_displayed_con
+field_name: field_par_displayed_con
+entity_type: paragraph
+bundle: imgtxtbanner
+label: 'Displayed content'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

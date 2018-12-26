@@ -1,0 +1,23 @@
+uuid: 95cafce4-c239-41d5-8c44-978373f00127
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_parallax
+    - paragraphs.paragraphs_type.imgtxtbanner
+  module:
+    - options
+_core:
+  default_config_hash: UVjVtsNNslEPashI-D4fvVCH_pYEC32UXo-LCNNX-ds
+id: paragraph.imgtxtbanner.field_par_parallax
+field_name: field_par_parallax
+entity_type: paragraph
+bundle: imgtxtbanner
+label: Parallax
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

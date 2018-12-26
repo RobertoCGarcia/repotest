@@ -1,0 +1,25 @@
+uuid: f3fd3974-e739-40c0-9edd-329a5f19916d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_par_medium
+    - paragraphs.paragraphs_type.icntxt
+  module:
+    - options
+_core:
+  default_config_hash: XkPaH3x54VHcF-ej7lKJczoNsCSS54RVpI93NJaJ8UU
+id: paragraph.icntxt.field_par_medium
+field_name: field_par_medium
+entity_type: paragraph
+bundle: icntxt
+label: 'Medium Columns'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1C
+default_value_callback: ''
+settings: {  }
+field_type: list_string

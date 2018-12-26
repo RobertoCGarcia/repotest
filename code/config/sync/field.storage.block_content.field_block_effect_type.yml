@@ -1,0 +1,35 @@
+uuid: f6ab9679-9b3f-484e-b849-9974b358a59f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+_core:
+  default_config_hash: RJreiGUu0lE8PnN0VhHHUM7uLYSlmRGSL20_PGv-L-Y
+id: block_content.field_block_effect_type
+field_name: field_block_effect_type
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'NO'
+      label: None
+    -
+      value: E1
+      label: 'Effect 1'
+    -
+      value: E2
+      label: 'Effect 2'
+    -
+      value: E3
+      label: 'Effect 3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

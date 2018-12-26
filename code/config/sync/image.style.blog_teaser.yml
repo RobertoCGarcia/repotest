@@ -1,0 +1,16 @@
+uuid: 00cefe0f-6f18-4307-bbdc-ebeb17c07c1d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-yuWR6BUV0jI7cyXem2wOhCuWVv0r0nDxjHv_Hga0FQ'
+name: blog_teaser
+label: 'Blog Teaser (650x400)'
+effects:
+  2abfff2b-05e8-498a-a6a8-d4cbe8638719:
+    uuid: 2abfff2b-05e8-498a-a6a8-d4cbe8638719
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 650
+      height: 400

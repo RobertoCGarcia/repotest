@@ -1,0 +1,38 @@
+uuid: 52ffd2f0-861f-4025-80d6-a3e6ddb45fca
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: Lt8dpYajS6k3CO2KOKkzoxUW0EUrlV5YzWNvTapU798
+id: paragraph.field_par_large
+field_name: field_par_large
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 1C
+      label: '1 Columns'
+    -
+      value: 2C
+      label: '2 Columns'
+    -
+      value: 3C
+      label: '3 Columns'
+    -
+      value: 4C
+      label: '4 Columns'
+    -
+      value: 6C
+      label: '6 Columns'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

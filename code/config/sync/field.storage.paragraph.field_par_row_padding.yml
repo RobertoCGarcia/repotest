@@ -1,0 +1,35 @@
+uuid: 9d4c3a99-7c0a-49f3-9713-1a2ebaa2a23b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: g1pFYDRSII7xEIIlrtOFa5MYyRrfQ3jMv1Vvv6f2Uoo
+id: paragraph.field_par_row_padding
+field_name: field_par_row_padding
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: NP
+      label: 'No padding'
+    -
+      value: RP1
+      label: 'Row Padding 1'
+    -
+      value: RP2
+      label: 'Row Padding 2'
+    -
+      value: RP3
+      label: 'Row Padding 3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

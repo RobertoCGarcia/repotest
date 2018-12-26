@@ -1,0 +1,32 @@
+uuid: f701e095-405e-40ff-ab9c-d1c0c66a292b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_footer
+    - field.storage.block_content.field_social_icons
+    - field_collection.field_collection.field_social_icons
+  module:
+    - field_collection
+_core:
+  default_config_hash: nXoDKQ44gkTMSYgpopwJtpdK_aa1OyvLKnmPnuwC1a0
+id: block_content.cpl_page_footer.field_social_icons
+field_name: field_social_icons
+entity_type: block_content
+bundle: cpl_page_footer
+label: 'Social Icons'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:field_collection_item'
+  handler_settings:
+    target_bundles:
+      field_social_icons: field_social_icons
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: field_collection

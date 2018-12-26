@@ -1,0 +1,32 @@
+uuid: bfce2471-4518-4575-9f6c-6a7ca69dd621
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_content_reference
+    - field.storage.block_content.field_block_content_ref
+    - node.type.additional_content
+    - node.type.embedded_paragraphs_page
+_core:
+  default_config_hash: H2FAu4l2_S2u6LZy7AUIcpS1MUzfJHvefGtPsvkISzI
+id: block_content.cpl_content_reference.field_block_content_ref
+field_name: field_block_content_ref
+entity_type: block_content
+bundle: cpl_content_reference
+label: 'Content Reference'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      additional_content: additional_content
+      embedded_paragraphs_page: embedded_paragraphs_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: additional_content
+field_type: entity_reference

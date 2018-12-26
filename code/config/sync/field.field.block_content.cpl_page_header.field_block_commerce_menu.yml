@@ -1,0 +1,25 @@
+uuid: d1fd4222-0839-4365-9d52-1c2cb333c013
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cpl_page_header
+    - field.storage.block_content.field_block_commerce_menu
+_core:
+  default_config_hash: 7H81tqAhe3SySQ2lz2IzmFdm6G6w0DNwGHOuO7aN2mw
+id: block_content.cpl_page_header.field_block_commerce_menu
+field_name: field_block_commerce_menu
+entity_type: block_content
+bundle: cpl_page_header
+label: 'User Menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:menu'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference
